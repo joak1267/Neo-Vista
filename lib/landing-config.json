@@ -1,0 +1,139 @@
+{
+  "activeTemplateId": "personal-jdoe",
+  "clients": [
+    {
+      "id": "saas-techflow",
+      "clientName": "TechFlow SaaS",
+      "template": "saas",
+      "theme": {
+        "primary": "#4F46E5",
+        "secondary": "#818CF8",
+        "background": "#ffffff"
+      },
+      "hero": {
+        "headline": "Automatiza tu flujo de trabajo en segundos",
+        "subheadline": "La plataforma definitiva para equipos ágiles que buscan maximizar su productividad sin esfuerzo técnico.",
+        "ctaText": "Comienza Gratis",
+        "image": "/hero-saas.webp"
+      },
+      "features": [
+        { "id": "f1", "title": "Sincronización en la Nube", "description": "Tus datos siempre actualizados en todos tus dispositivos.", "iconName": "Cloud" },
+        { "id": "f2", "title": "Seguridad Bancaria", "description": "Encriptación de extremo a extremo para proteger tus activos.", "iconName": "Shield" },
+        { "id": "f3", "title": "Analíticas Avanzadas", "description": "Reportes en tiempo real para tomar mejores decisiones.", "iconName": "BarChart3" }
+      ],
+      "testimonials": [
+        { "id": "t1", "name": "María Gómez", "role": "CTO en StartupX", "content": "Implementar TechFlow redujo nuestro tiempo de desarrollo en un 40%. Es increíble." }
+      ],
+      "pricing": [
+        { "id": "p1", "name": "Básico", "price": "$19", "features": ["Hasta 3 usuarios", "Soporte estándar", "10GB almacenamiento"] },
+        { "id": "p2", "name": "Pro", "price": "$49", "features": ["Usuarios ilimitados", "Soporte 24/7", "Almacenamiento ilimitado", "Analíticas avanzadas"], "isPopular": true }
+      ]
+    },
+    {
+      "id": "personal-jdoe",
+      "clientName": "John Doe Portfolio",
+      "template": "personal",
+      "theme": { "primary": "#111827", "secondary": "#4B5563" },
+      "hero": { 
+        "headline": "Soy John, Desarrollador", 
+        "subheadline": "Creo experiencias digitales de alto impacto con React y Next.js.", 
+        "ctaText": "Contáctame", 
+        "image": "/hero-personal.webp" 
+      },
+      "features": [
+        { "id": "p1", "title": "React & Next.js", "description": "Interfaces modernas y escalables.", "iconName": "Code2" },
+        { "id": "p2", "title": "UX/UI Design", "description": "Diseño centrado en el usuario.", "iconName": "Monitor" }
+      ]
+    },
+    {
+      "id": "agency-creative",
+      "clientName": "Creative Studio",
+      "template": "agency",
+      "theme": { "primary": "#000000", "secondary": "#FFFFFF" },
+      "hero": { "headline": "Diseño que impacta", "subheadline": "Agencia creativa especializada en branding digital.", "ctaText": "Ver proyectos", "image": "/hero-agency.webp" },
+      "features": [
+        { "id": "a1", "title": "Branding", "description": "Identidad visual única.", "iconName": "Palette" }
+      ]
+    },
+    {
+      "id": "lead-ebook",
+      "clientName": "Ebook Masterclass",
+      "template": "lead",
+      "theme": { "primary": "#DC2626", "secondary": "#FCA5A5" },
+      "hero": { "headline": "Aumenta tus ventas", "subheadline": "Descarga la guía gratuita para escalar tu negocio hoy mismo.", "ctaText": "Descargar ahora", "image": "/hero-lead.webp" },
+      "features": []
+    },
+    {
+      "id": "sales-masterclass",
+      "clientName": "Masterclass Pro",
+      "template": "sales",
+      "theme": {
+        "primary": "#ef4444",
+        "accent": "#f59e0b",
+        "background": "#0a0a0a"
+      },
+      "hero": {
+        "headline": "El Sistema Definitivo para Escalar tu Negocio",
+        "subheadline": "Descubrí el paso a paso exacto para facturar múltiples 6 cifras sin depender de referidos.",
+        "ctaText": "QUIERO ACCESO INMEDIATO"
+      },
+      "priceAnchoring": { "real": "997", "today": "97" },
+      "testimonials": [
+        { "id": "st1", "name": "Carlos R.", "text": "Increíble, recuperé la inversión en la primera semana." }
+      ]
+    },
+    {
+      "id": "linkbio-juan",
+      "clientName": "Juan Pérez",
+      "template": "linkbio",
+      "theme": {
+        "primary": "#ec4899"
+      },
+      "avatar": "https://i.pravatar.cc/150?img=11",
+      "hero": {
+        "headline": "Juan Pérez",
+        "subheadline": "Acelerá tu carrera tech. Encontrá todos mis recursos gratuitos.",
+        "ctaText": "Mis Herramientas"
+      },
+      "links": [
+        { "id": "lb1", "title": "Mi Canal de YouTube", "url": "#", "icon": "Youtube" }
+      ]
+    },
+    {
+      "id": "waitlist-x",
+      "clientName": "Proyecto X",
+      "template": "waitlist",
+      "theme": {
+        "primary": "#eab308"
+      },
+      "spot": 4251,
+      "hero": {
+        "headline": "El futuro de las agencias está a un clic.",
+        "subheadline": "Estamos construyendo la herramienta que va a reemplazar a 5 suscripciones distintas.",
+        "ctaText": "RESERVAR MI LUGAR"
+      }
+    },
+    {
+      "id": "platform-nexus",
+      "clientName": "Nexus SaaS",
+      "template": "platform",
+      "theme": {
+        "primary": "#3b82f6",
+        "accent": "#8b5cf6"
+      },
+      "hero": {
+        "headline": "El sistema operativo para escalar tu empresa",
+        "subheadline": "Centralizá tus operaciones, automatizá flujos de trabajo y tomá decisiones en tiempo real.",
+        "ctaText": "Comenzar Gratis"
+      },
+      "integrations": [
+        { "id": "i1", "name": "Slack", "iconName": "Slack" },
+        { "id": "i2", "name": "Figma", "iconName": "Figma" }
+      ],
+      "pricing": [
+        { "id": "pt1", "name": "Starter", "monthlyPrice": "29", "annualPrice": "24", "ctaText": "Elegir Starter", "features": ["3 Usuarios"] },
+        { "id": "pt2", "name": "Pro", "monthlyPrice": "79", "annualPrice": "64", "ctaText": "Probar Gratis", "features": ["Ilimitado"], "isPopular": true }
+      ]
+    }
+  ]
+}

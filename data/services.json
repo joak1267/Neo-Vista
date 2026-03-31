@@ -1,0 +1,20 @@
+[
+  {
+    "id": "landing-pages",
+    "title": "Landing Pages",
+    "description": "Diseñamos páginas de aterrizaje optimizadas para captar contactos y generar conversiones reales para tu negocio.",
+    "icon": "Globe"
+  },
+  {
+    "id": "hosting",
+    "title": "Hosting Web",
+    "description": "Alojamos tu landing page en servidores rápidos y seguros para que esté siempre disponible, sin complicaciones técnicas.",
+    "icon": "Server"
+  },
+  {
+    "id": "coming-soon",
+    "title": "Próximamente",
+    "description": "Estamos preparando nuevos servicios para potenciar tu presencia digital. Mantenete atento a las novedades.",
+    "icon": "Sparkles"
+  }
+]

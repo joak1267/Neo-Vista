@@ -18,6 +18,8 @@
         "name": "next"
       }
     ],
+    // ✅ CAMBIO: Agregamos baseUrl para que el alias @/ funcione
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
     }
