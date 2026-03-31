@@ -476,7 +476,7 @@ export default function SaasTemplate({ data }: SaasTemplateProps) {
       <main>
         <Hero hero={hero} openQuiz={() => setIsQuizOpen(true)} t={t} />
         <SocialProof t={t} />
-        <Features features={features} t={t} />
+        <Features features={features || []} t={t} />
         <DetailedBenefits benefits={fallbackBenefits} t={t} />
         <Pricing pricing={pricing || []} t={t} />
         <FAQAccordion faqs={fallbackFAQs} t={t} />
